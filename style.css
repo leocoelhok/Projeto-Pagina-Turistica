@@ -97,3 +97,10 @@ p{
 .lista-tags {
   margin-top: 0; 
 }
+
+
+footer{
+    color: black;
+    text-align: center;
+    padding-bottom: 48px;
+}
