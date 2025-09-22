@@ -10,6 +10,7 @@
 
 #img1{
     border-radius: 28px;
+    width: 100%;
 }
 
 main{
@@ -45,3 +46,23 @@ h1, h2{
     color: #007bff;
     font-weight: bold;
 }
+
+p{
+    text-align: justify;
+    font-size: 16;
+}
+
+.casais{
+    font-weight: bold;
+    color: #591B98;
+}
+
+.familias{
+    font-weight: bold;
+    color: #E5245E;
+}
+.orcamento{
+    font-weight: bold;
+    color: #E95E10;
+}
+
