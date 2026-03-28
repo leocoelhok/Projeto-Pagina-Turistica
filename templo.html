@@ -31,46 +31,142 @@
         costeiro.
       </p>
 
-      <img src="assets/templo haedong.jpg" alt="">
+      <img src="assets/templo haedong.jpg" alt="" />
     </div>
 
     <div>
-        <h2>Como chegar saindo de Pirapora - MG</h2>
-        
-        <table class="tabela-distancias">
-            <thead>
-                <tr>
-                    <th>Trecho de Viagem</th>
-                    <th>Meio de Transporte</th>
-                    <th>Distância Aprox.</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Pirapora ➔ Belo Horizonte (CNF)</td>
-                    <td>Carro/Ônibus</td>
-                    <td>350 km</td>
-                </tr>
-                <tr>
-                    <td>Belo Horizonte ➔ São Paulo (GRU)</td>
-                    <td>Avião</td>
-                <td>500 km</td>
-            </tr>
-            <tr>
-                <td>São Paulo ➔ Seul (ICN)</td>
-                <td>Avião (Conexão)</td>
-                <td>18.300 km</td>
-            </tr>
-            <tr>
-                <td>Seul ➔ Busan (Templo)</td>
-                <td>Trem KTX / Carro</td>
-                <td>325 km</td>
-            </tr>
+      <h2>Como chegar saindo de Pirapora - MG</h2>
+
+      <table class="tabela-distancias">
+        <thead>
+          <tr>
+            <th>Trecho de Viagem</th>
+            <th>Meio de Transporte</th>
+            <th>Distância Aprox.</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Pirapora ➔ Belo Horizonte (CNF)</td>
+            <td>Carro/Ônibus</td>
+            <td>350 km</td>
+          </tr>
+          <tr>
+            <td>Belo Horizonte ➔ São Paulo (GRU)</td>
+            <td>Avião</td>
+            <td>500 km</td>
+          </tr>
+          <tr>
+            <td>São Paulo ➔ Seul (ICN)</td>
+            <td>Avião (Conexão)</td>
+            <td>18.300 km</td>
+          </tr>
+          <tr>
+            <td>Seul ➔ Busan (Templo)</td>
+            <td>Trem KTX / Carro</td>
+            <td>325 km</td>
+          </tr>
         </tbody>
-                </tr>
-            </tbody>
-        </table>
+      </table>
     </div>
-    <form action=""></form>
+
+    <form action="" method="post" enctype="multipart/form-data">
+      <fieldset class="grid">
+        <legend>Interesse em visitar? Conta pra gente!</legend>
+
+        <div class="field-group">
+          <label for="fullname">Nome completo</label>
+          <input type="text" id="fullname" name="fullname" required />
+        </div>
+
+        <div class="field-group">
+          <label for="email">E-mail</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+
+        <div class="field-group">
+          <label for="idade">Idade</label>
+          <input type="number" id="idade" name="idade" />
+        </div>
+
+        <div class="field-group">
+          <label for="telefone">Telefone</label>
+          <input type="tel" id="telefone" name="telefone" />
+        </div>
+
+       <div class="full-width">
+          <label>Sexo:</label>
+          <div class="options-group">
+            <span class="option-item">
+              <input type="radio" id="masc" name="sexo" value="masculino" />
+              <label for="masc">Masculino</label>
+            </span>
+            <span class="option-item">
+              <input type="radio" id="fem" name="sexo" value="feminino" />
+              <label for="fem">Feminino</label>
+            </span>
+            <span class="option-item">
+              <input type="radio" id="nb" name="sexo" value="nao-binario" />
+              <label for="nb">Não binário</label>
+            </span>
+            <span class="option-item">
+              <input
+                type="radio"
+                id="pref-nao"
+                name="sexo"
+                value="pref-nao-dizer"
+              />
+              <label for="pref-nao">Prefiro não dizer</label>
+            </span>
+          </div>
+        </div>
+
+        <div class="full-width">
+          <label>Motivos da Viagem:</label>
+          <div class="options-group">
+            <span class="option-item">
+              <input type="checkbox" id="lazer" name="motivo" value="lazer" />
+              <label for="lazer">Lazer</label>
+            </span>
+            <span class="option-item">
+              <input
+                type="checkbox"
+                id="negocios"
+                name="motivo"
+                value="negocios"
+              />
+              <label for="negocios">Negócios</label>
+            </span>
+            <span class="option-item">
+              <input
+                type="checkbox"
+                id="esportes"
+                name="motivo"
+                value="esportes"
+              />
+              <label for="esportes">Eventos Esportivos</label>
+            </span>
+            <span class="option-item">
+              <input type="checkbox" id="cursos" name="motivo" value="cursos" />
+              <label for="cursos">Cursos</label>
+            </span>
+          </div>
+        </div>
+
+        <div class="campo-comentario">
+          <label for="comentarios">Comentários:</label>
+          <textarea
+            id="comentarios"
+            name="comentarios"
+            rows="4"
+            placeholder="Escreva sua mensagem..."
+          ></textarea>
+        </div>
+
+        <div class="full-width">
+          <button type="submit">Enviar Interesse</button>
+        </div>
+      </fieldset>
+    </form>
   </body>
 </html>
