@@ -38,11 +38,11 @@ main{
 }
 
 h1{
-    font-size: 36;
+    font-size: 36px;
 }
 
 h2{
-    font-size: 32;
+    font-size: 32px;
 }
 
 h3{
@@ -103,4 +103,22 @@ footer{
     color: black;
     text-align: center;
     padding-bottom: 48px;
+}
+
+#page a {
+    margin-top: 2rem;
+    padding: 1rem;
+    display: block;
+    text-decoration: none; 
+    color: inherit;
+    background-color: #fff; 
+    transition: background-color 0.3s ease; 
+    border-radius: 28px; 
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#page a:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
 }

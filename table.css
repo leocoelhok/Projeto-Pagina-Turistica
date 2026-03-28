@@ -1,0 +1,42 @@
+.templo{
+    padding: 1rem;
+    margin-top: 1rem;
+
+    & img {
+    border-radius: 28px;
+    margin-top: 40px;
+    width: 100%;             
+    max-width: 900px;       
+    height: auto;           
+    display: block;          
+    margin-left: auto;       
+    margin-right: auto;      
+}
+}
+
+.tabela-distancias {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-family: sans-serif;
+    border-radius: 15px;
+    overflow: hidden; 
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.tabela-distancias th {
+    background-color: #4b2c82; 
+    color: white;
+    padding: 15px;
+    text-align: left;
+}
+
+.tabela-distancias td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.tabela-distancias tr:hover {
+    background-color: #f9f9f9; 
+}
+
